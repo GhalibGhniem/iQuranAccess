@@ -1,6 +1,6 @@
 # iQuran
 
-- For Arabic Readme reffer <a href="readme_Ar.md">HERE</a> <br />
+- For Arabic Readme reffer <a href="blob/master/readme_Ar.md">HERE</a> <br />
 
 - Advanced Quran Search Project - Access Quran -  This is a C# Project, prepared to be applied with <a href="http://MojoPortal.com" target="_blank"> Mojoportal</a><br />
 
