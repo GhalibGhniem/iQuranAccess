@@ -109,16 +109,15 @@ Features:<br />
 3.1.5 - Ability to use the letters <b>Wheights</b> with these calcuations.<br />
 <br />
 <br />
-<b> Part Parallel - Mobile Application!<br />
+<b> Part Parallel - Mobile Application!</b><br />
 <br />
 Features:<br />
+
+Parallel to all these steps, I will work on Mobile Application for this Project!<br />
 <br />
-- Parallel to all these steps, I will work on Mobile Application for this Project!<br />
-<br />
-<br />
-<b> Part Optional - Activation other modules!<br />
+
+<b> Part Optional - Activation other modules!</b><br />
 <br />
 Features:<br />
-<br />
-- Mojo Portal have many modules, like Forums, Blogs etc.. You can readjd <a href="https://www.mojoportal.com/features.aspx" target="_blank">HERE</a> the list of Mojo Portal features</b><br />
-<br />
+
+Mojo Portal have many modules, like Forums, Blogs etc.. You can readjd <a href="https://www.mojoportal.com/features.aspx" target="_blank">HERE</a> the list of Mojo Portal features</b><br />
