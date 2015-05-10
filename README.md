@@ -50,74 +50,75 @@ The place of the initial web project will be at : <br />
 
 Features:<br />
 
-1.1 - Ability to read Quran - Translation by Page.
-1.2 - Simple Search Quran :
-1.2.1 - Simple search within <b>Translations</b> From Sura from a verse to aSura to a Verse, for a specific word or part from word or Part from sentence Only!
-1.2.2 - Simple Search Arabic Original Quran :
-a. - Search for word by Root
-b. - Search for Exact word.
-c. - Search for a Part of word.
-d. - Search for a part of sentence.
-  
-<b> Search Types :</b>
-- Search From Sura to a Sura
-- Search From Verse to a Verse
-- Search by Dictional or Othmani Font draw
+1.1 - Ability to read Quran - Translation by Page.<br />
+1.2 - Simple Search Quran :<br />
+1.2.1 - Simple search within <b>Translations</b> From Sura from a verse to aSura to a Verse, for a specific word or part from word or Part from sentence Only!<br />
+1.2.2 - Simple Search Arabic Original Quran :<br />
+a. - Search for word by Root<br />
+b. - Search for Exact word.<br />
+c. - Search for a Part of word.<br />
+d. - Search for a part of sentence.<br />
+  <br />
+<b> Search Types :</b><br />
+- Search From Sura to a Sura<br />
+- Search From Verse to a Verse<br />
+- Search by Dictional or Othmani Font draw<br />
 
-<b> Search Criterias :</b>
-- Search Dictionaly with Alif types
-- Search Dictionaly ignoring all Alif types
+<b> Search Criterias :</b><br />
+- Search Dictionaly with Alif types<br />
+- Search Dictionaly ignoring all Alif types<br />
+<br />
+- Search Othmany full draw<br />
+- Search Othmany with Alif types<br />
+- Search Othmani ignoring all Alif types<br />
 
-- Search Othmany full draw
-- Search Othmany with Alif types
-- Search Othmani ignoring all Alif types
-
-- note : <b> Results always Othmani Draw</b>
-
-1.3 - Ability to remember specific verses from within the search result, to collect them for later use
-1.4 - Ability to share the verses by one click to almost about 281 social place!
-1.5 - Ability to copy any Verse, just by mouse over it!
-
-<b> Part 2 - User Personalization</b>
-
+- note : <b> Results always Othmani Draw</b><br />
+<br />
+1.3 - Ability to remember specific verses from within the search result, to collect them for later use<br />
+1.4 - Ability to share the verses by one click to almost about 281 social place!<br />
+1.5 - Ability to copy any Verse, just by mouse over it!<br />
+<br />
+<b> Part 2 - User Personalization</b><br />
+<br />
 Features:<br />
+<br />
+2.1 - Activation of users subscriptions.<br />
+2.2 - Remebering Users settings and personalization.<br />
+2.3 - User personal - not public - notes on searches and verses!<br />
+2.4 - Activation Listening to Quran<br />
+<br />
 
-2.1 - Activation of users subscriptions.
-2.2 - Remebering Users settings and personalization.
-2.3 - User personal - not public - notes on searches and verses!
-2.4 - Activation Listening to Quran
-whts else ahmad ?
 
+<b> Part 3 - Advanced Search for Researchers</b><br />
+<br />
+Features:<br /><br />
 
-<b> Part 3 - Advanced Search for Researchers</b>
-
+3.1 - Adding Multi Root results.<br />
+3.1 - Adding Multi Word Search.<br />
+3.2 - Adding all Access Quran SW Numeric features for Calculation Verses, Qords, Letters counts and repeatation "تكرار".<br />
+<br />
+<b> Part 4 - Advanced Researchers & Calculations</b><br />
+<br />
 Features:<br />
-
-3.1 - Adding Multi Root results.
-3.1 - Adding Multi Word Search.
-3.2 - Adding all Access Quran SW Numeric features for Calculation Verses, Qords, Letters counts and repeatation "تكرار".
-
-<b> Part 4 - Advanced Researchers & Calculations</b>
-
+<br />
+3.1 - Activation all <b>NUMERIC</b> Quran Features with different levels:<br />
+3.1.1 - Dealing with Verses Counts.<br />
+3.1.2 - Dealing with Words Counts.<br />
+3.1.3 - Dealing with Letters Counts.<br />
+3.1.4 - Ability to remember and relate these calculations together.<br />
+3.1.5 - Ability to use the letters <b>Wheights</b> with these calcuations.<br />
+<br />
+<br />
+<b> Part Parallel - Mobile Application!<br />
+<br />
 Features:<br />
-
-3.1 - Activation all <b>NUMERIC</b> Quran Features with different levels:
-3.1.1 - Dealing with Verses Counts.
-3.1.2 - Dealing with Words Counts.
-3.1.3 - Dealing with Letters Counts.
-3.1.4 - Ability to remember and relate these calculations together.
-3.1.5 - Ability to use the letters <b>Wheights</b> with these calcuations.
-
-
-<b> Part Parallel - Mobile Application!
-
+<br />
+- Parallel to all these steps, I will work on Mobile Application for this Project!<br />
+<br />
+<br />
+<b> Part Optional - Activation other modules!<br />
+<br />
 Features:<br />
-
-- Parallel to all these steps, I will work on Mobile Application for this Project!
-
-
-<b> Part Optional - Activation other modules!
-
-Features:<br />
-
-- Mojo Portal have many modules, like Forums, Blogs etc.. You can readjd <a href="https://www.mojoportal.com/features.aspx" target="_blank">HERE</a> the list of Mojo Portal features</b>
+<br />
+- Mojo Portal have many modules, like Forums, Blogs etc.. You can readjd <a href="https://www.mojoportal.com/features.aspx" target="_blank">HERE</a> the list of Mojo Portal features</b><br />
+<br />
