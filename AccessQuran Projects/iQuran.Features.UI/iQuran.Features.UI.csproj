@@ -1,0 +1,1062 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F2270CE-2B6F-41EA-AEC8-41CBCE25E30D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>iQuran.Features.UI</RootNamespace>
+    <AssemblyName>iQuran.Features.UI</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug - MySql|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release - MySql|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug - Firebird|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release - Firebird|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug - pgsql|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release - pgsql|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug - SqlCe|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release - SqlCe|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug - SQLite|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release - SQLite|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.5.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Shine4All\_libs\ajaxtoolkit-jan2013\AjaxControlToolkit.Binary.NET45\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Argotic.Common, Version=2008.0.2.0, Culture=neutral, PublicKeyToken=84b2ce808fb02469, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_libs\argotic\Argotic.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Argotic.Core, Version=2008.0.2.0, Culture=neutral, PublicKeyToken=84b2ce808fb02469, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_libs\argotic\Argotic.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Argotic.Extensions, Version=2008.0.2.0, Culture=neutral, PublicKeyToken=84b2ce808fb02469, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_libs\argotic\Argotic.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Brettle.Web.NeatHtml, Version=1.0.3373.23565, Culture=neutral">
+      <HintPath>..\_libs\Brettle.Web.NeatHtml.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlDiff, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_libs\HtmlDiff.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.9.0, Culture=neutral, PublicKeyToken=b32731d11ce58905">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\MojoPortal\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.2\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.2\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.2\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.2\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.2\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AccessQuran\iQuran\iVerseManager.aspx" />
+    <Content Include="Admin\AccessQuran\iQuran\iVerseEdit.aspx" />
+    <Content Include="Admin\AccessQuran\iQuran\iSuraEdit.aspx" />
+    <Content Include="Admin\AccessQuran\iQuran\iSuraManager.aspx" />
+    <Content Include="Admin\AccessQuran\iQuran\iQuranEdit.aspx" />
+    <Content Include="Admin\AccessQuran\iQuranAdvanced.aspx" />
+    <Content Include="Admin\AccessQuran\iQuran\iQuranManager.aspx" />
+    <Content Include="App_DesignTimeStyle\favicon.ico" />
+    <Content Include="ClientScript\iQuran\iQuran.js" />
+    <Content Include="Controls\iQuran\LanguageSetting.ascx" />
+    <Content Include="Data\SiteImages\iQuran\accept.png" />
+    <Content Include="Data\SiteImages\iQuran\add.png" />
+    <Content Include="Data\SiteImages\iQuran\icon_copy.png" />
+    <Content Include="Data\SiteImages\iQuran\fontstypes.jpg" />
+    <Content Include="Data\SiteImages\iQuran\searchresult.jpg" />
+    <Content Include="Data\Sites\1\Logos\blank.gif" />
+    <Content Include="Data\Sites\1\Logos\img_logo.gif" />
+    <Content Include="Data\Sites\1\Logos\mojomoonprint.jpg" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\ArtisteerWebDesign_468x60.gif" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\collapse.gif" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\me_quran-webfont.svg" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\style-iquran.css" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\expand.gif" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\favicon.ico" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\blockbullets.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\blockheadericon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\footer.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\footerbullets.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\footerfacebookicon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\footerrssicon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\footertwittericon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\header.jpg" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\linkedinicon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\menuseparator.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\no-avatar.jpg" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\page.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\pinteresticon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\postauthoricon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\postbullets.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\postdateicon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\postediticon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\postemailicon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\postprinticon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\postquote.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\preloader-01.gif" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\searchicon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\SorterAscActive.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\SorterAscPassive.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\SorterDescActive.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\SorterDescPassive.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\spacer.gif" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\template_preview.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\tumblricon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\vimeoicon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\vmenublockheadericon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\images\youtubeicon.png" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\index.html" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\script.js" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\script.responsive.js" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\style-artisteer-overrides.css" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\style.css" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\style.ie7.css" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\style.responsive.css" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\styleaspcalendar.css" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\styleblog.css" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\styledatacalendar.css" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\stylefeedmanager.css" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\styleformwizard.css" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\styleforum.css" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\stylemojo.css" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\styletreeview.css" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\stylewebstore.css" />
+    <Content Include="Data\Sites\1\skins\printerfriendly\arrowRight.gif" />
+    <Content Include="Data\Sites\1\skins\printerfriendly\collapse.gif" />
+    <Content Include="Data\Sites\1\skins\printerfriendly\expand.gif" />
+    <Content Include="Data\Sites\1\skins\printerfriendly\favicon.ico" />
+    <Content Include="Data\Sites\1\skins\printerfriendly\IE7Specific.css" />
+    <Content Include="Data\Sites\1\skins\printerfriendly\IESpecific.css" />
+    <Content Include="Data\Sites\1\skins\printerfriendly\mypage.css" />
+    <Content Include="Data\Sites\1\skins\printerfriendly\neatupload.css" />
+    <Content Include="Data\Sites\1\skins\printerfriendly\openidlogin.gif" />
+    <Content Include="Data\Sites\1\skins\printerfriendly\style.css" />
+    <Content Include="Data\Sites\1\skins\printerfriendly\styleformwizard.css" />
+    <Content Include="Data\Sites\1\skins\printerfriendly\styleprinter.css" />
+    <Content Include="Data\Sites\1\skins\printerfriendly\stylewebstore.css" />
+    <Content Include="Data\skins\art42-wallpaper\ArtisteerWebDesign_468x60.gif" />
+    <Content Include="Data\skins\art42-wallpaper\collapse.gif" />
+    <Content Include="Data\skins\art42-wallpaper\expand.gif" />
+    <Content Include="Data\skins\art42-wallpaper\favicon.ico" />
+    <Content Include="Data\skins\art42-wallpaper\images\blockbullets.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\blockheadericon.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\footer.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\footerbullets.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\footerfacebookicon.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\footerrssicon.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\footertwittericon.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\header.jpg" />
+    <Content Include="Data\skins\art42-wallpaper\images\linkedinicon.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\menuseparator.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\no-avatar.jpg" />
+    <Content Include="Data\skins\art42-wallpaper\images\page.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\pinteresticon.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\postauthoricon.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\postbullets.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\postdateicon.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\postediticon.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\postemailicon.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\postprinticon.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\postquote.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\preloader-01.gif" />
+    <Content Include="Data\skins\art42-wallpaper\images\searchicon.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\SorterAscActive.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\SorterAscPassive.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\SorterDescActive.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\SorterDescPassive.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\spacer.gif" />
+    <Content Include="Data\skins\art42-wallpaper\images\template_preview.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\tumblricon.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\vimeoicon.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\vmenublockheadericon.png" />
+    <Content Include="Data\skins\art42-wallpaper\images\youtubeicon.png" />
+    <Content Include="Data\skins\art42-wallpaper\index.html" />
+    <Content Include="Data\skins\art42-wallpaper\me_quran-webfont.svg" />
+    <Content Include="Data\skins\art42-wallpaper\script.js" />
+    <Content Include="Data\skins\art42-wallpaper\script.responsive.js" />
+    <Content Include="Data\skins\art42-wallpaper\style-artisteer-overrides.css" />
+    <Content Include="Data\skins\art42-wallpaper\style-iquran.css" />
+    <Content Include="Data\skins\art42-wallpaper\style.css" />
+    <Content Include="Data\skins\art42-wallpaper\style.ie7.css" />
+    <Content Include="Data\skins\art42-wallpaper\style.responsive.css" />
+    <Content Include="Data\skins\art42-wallpaper\styleaspcalendar.css" />
+    <Content Include="Data\skins\art42-wallpaper\styleblog.css" />
+    <Content Include="Data\skins\art42-wallpaper\styledatacalendar.css" />
+    <Content Include="Data\skins\art42-wallpaper\stylefeedmanager.css" />
+    <Content Include="Data\skins\art42-wallpaper\styleformwizard.css" />
+    <Content Include="Data\skins\art42-wallpaper\styleforum.css" />
+    <Content Include="Data\skins\art42-wallpaper\stylemojo.css" />
+    <Content Include="Data\skins\art42-wallpaper\styletreeview.css" />
+    <Content Include="Data\skins\art42-wallpaper\stylewebstore.css" />
+    <Content Include="Data\style\adminmenu\style.css" />
+    <Content Include="iQuran\QuranSearch\iQuranIndex.aspx" />
+    <Content Include="iQuran\QuranSearch\ViewQuranPage.aspx" />
+    <Content Include="iQuran\QuranSearch\ViewVerse.aspx" />
+    <Content Include="iQuran\QuranSearch\iQuranSimpleSearch.aspx" />
+    <Content Include="iQuran\QuranSearch\iQuranSimpleSearchView.aspx" />
+    <Content Include="iQuran\QuranSearch\ViewSura.aspx" />
+    <Content Include="iQuran\Translations\Pickthall\Html\index.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\intro.txt" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura001.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura002.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura003.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura004.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura005.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura006.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura007.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura008.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura009.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura010.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura011.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura012.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura013.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura014.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura015.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura016.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura017.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura018.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura019.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura020.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura021.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura022.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura023.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura024.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura025.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura026.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura027.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura028.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura029.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura030.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura031.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura032.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura033.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura034.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura035.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura036.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura037.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura038.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura039.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura040.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura041.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura042.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura043.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura044.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura045.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura046.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura047.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura048.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura049.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura050.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura051.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura052.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura053.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura054.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura055.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura056.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura057.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura058.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura059.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura060.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura061.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura062.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura063.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura064.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura065.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura066.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura067.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura068.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura069.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura070.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura071.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura072.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura073.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura074.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura075.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura076.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura077.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura078.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura079.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura080.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura081.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura082.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura083.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura084.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura085.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura086.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura087.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura088.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura089.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura090.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura091.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura092.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura093.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura094.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura095.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura096.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura097.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura098.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura099.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura100.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura101.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura102.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura103.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura104.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura105.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura106.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura107.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura108.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura109.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura110.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura111.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura112.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura113.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\sura114.html" />
+    <Content Include="iQuran\Translations\Pickthall\Html\tbar_defs.js" />
+    <Content Include="iQuran\Translations\Pickthall\Html\title.txt" />
+    <Content Include="Setup\applications\iQuran\SchemaInstallScripts\mssql\0.0.0.1.config" />
+    <Content Include="Setup\applications\iQuran\SchemaUpgradeScripts\mssql\0.0.1.1.config" />
+    <Content Include="Setup\applications\iQuran\SchemaUpgradeScripts\mssql\0.0.1.2.config" />
+    <Content Include="Setup\applications\iQuran\SchemaUpgradeScripts\mssql\0.0.1.3.config" />
+    <Content Include="Setup\applications\iQuran\SchemaUpgradeScripts\mssql\0.0.1.4.config" />
+    <Content Include="Setup\applications\iQuran\SchemaUpgradeScripts\mssql\0.0.1.5.config" />
+    <Content Include="Setup\applications\iQuran\SchemaUpgradeScripts\mssql\0.0.1.6.config" />
+    <Content Include="Setup\applications\iQuran\SchemaUpgradeScripts\mssql\0.0.1.7.config" />
+    <Content Include="Setup\applications\iQuran\SchemaUpgradeScripts\mssql\0.0.1.8.config" />
+    <Content Include="Setup\applications\iQuran\SchemaUpgradeScripts\mssql\0.0.2.2.config" />
+    <Content Include="Setup\applications\iQuran\SchemaUpgradeScripts\mssql\0.0.2.3.config" />
+    <Content Include="Setup\applications\iQuran\SchemaUpgradeScripts\mssql\0.0.2.4.config" />
+    <Content Include="TODO\todo.txt" />
+    <Content Include="TODO\webconfig Changes.txt" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AccessQuran\iQuran\iVerseManager.aspx.cs">
+      <DependentUpon>iVerseManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AccessQuran\iQuran\iVerseManager.aspx.designer.cs">
+      <DependentUpon>iVerseManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AccessQuran\iQuran\iVerseEdit.aspx.cs">
+      <DependentUpon>iVerseEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AccessQuran\iQuran\iVerseEdit.aspx.designer.cs">
+      <DependentUpon>iVerseEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AccessQuran\iQuran\iSuraEdit.aspx.cs">
+      <DependentUpon>iSuraEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AccessQuran\iQuran\iSuraEdit.aspx.designer.cs">
+      <DependentUpon>iSuraEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AccessQuran\iQuran\iSuraManager.aspx.cs">
+      <DependentUpon>iSuraManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AccessQuran\iQuran\iSuraManager.aspx.designer.cs">
+      <DependentUpon>iSuraManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AccessQuran\iQuran\iQuranEdit.aspx.cs">
+      <DependentUpon>iQuranEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AccessQuran\iQuran\iQuranEdit.aspx.designer.cs">
+      <DependentUpon>iQuranEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AccessQuran\iQuranAdvanced.aspx.cs">
+      <DependentUpon>iQuranAdvanced.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AccessQuran\iQuranAdvanced.aspx.designer.cs">
+      <DependentUpon>iQuranAdvanced.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AccessQuran\iQuran\iQuranManager.aspx.cs">
+      <DependentUpon>iQuranManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AccessQuran\iQuran\iQuranManager.aspx.designer.cs">
+      <DependentUpon>iQuranManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\iQuranMessagesResources.ar.designer.cs">
+      <DependentUpon>iQuranMessagesResources.ar.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\iQuranOptionsResources.ar.designer.cs">
+      <DependentUpon>iQuranOptionsResources.ar.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\iQuranResources.ar.designer.cs">
+      <DependentUpon>iQuranResources.ar.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\LanguagesResources.ar.designer.cs">
+      <DependentUpon>LanguagesResources.ar.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\iQuranHelpResources.ar.designer.cs">
+      <DependentUpon>iQuranHelpResources.ar.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\iQuranCommandsResources.ar.designer.cs">
+      <DependentUpon>iQuranCommandsResources.ar.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\iQuranCommandsResources.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iQuranCommandsResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\iQuranHelpResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iQuranHelpResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\iQuranMessagesResources.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iQuranMessagesResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\iQuranOptionsResources.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iQuranOptionsResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\iQuranResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iQuranResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LanguagesResources.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguagesResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Resource.Designer.cs">
+      <DependentUpon>Resource.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Controls\iQuran\LanguageSetting.ascx.cs">
+      <DependentUpon>LanguageSetting.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\iQuran\LanguageSetting.ascx.designer.cs">
+      <DependentUpon>LanguageSetting.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\iQuranHelper.cs" />
+    <Compile Include="iQuran\QuranSearch\iQuranIndex.aspx.cs">
+      <DependentUpon>iQuranIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="iQuran\QuranSearch\iQuranIndex.aspx.designer.cs">
+      <DependentUpon>iQuranIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="iQuran\QuranSearch\ViewQuranPage.aspx.cs">
+      <DependentUpon>ViewQuranPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="iQuran\QuranSearch\ViewQuranPage.aspx.designer.cs">
+      <DependentUpon>ViewQuranPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="iQuran\QuranSearch\ViewVerse.aspx.cs">
+      <DependentUpon>ViewVerse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="iQuran\QuranSearch\ViewVerse.aspx.designer.cs">
+      <DependentUpon>ViewVerse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="iQuran\QuranSearch\iQuranSimpleSearch.aspx.cs">
+      <DependentUpon>iQuranSimpleSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="iQuran\QuranSearch\iQuranSimpleSearch.aspx.designer.cs">
+      <DependentUpon>iQuranSimpleSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="iQuran\QuranSearch\iQuranSimpleSearchView.aspx.cs">
+      <DependentUpon>iQuranSimpleSearchView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="iQuran\QuranSearch\iQuranSimpleSearchView.aspx.designer.cs">
+      <DependentUpon>iQuranSimpleSearchView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="iQuran\QuranSearch\ViewSura.aspx.cs">
+      <DependentUpon>ViewSura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="iQuran\QuranSearch\ViewSura.aspx.designer.cs">
+      <DependentUpon>ViewSura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="App_MasterPages\" />
+    <Folder Include="Data\htmlfragments\" />
+    <Folder Include="Data\logos\" />
+    <Folder Include="Data\Sites\1\banners\" />
+    <Folder Include="Data\Sites\1\flash\" />
+    <Folder Include="Data\Sites\1\FolderGalleries\" />
+    <Folder Include="Data\Sites\1\GalleryImages\EditorUploadImages\" />
+    <Folder Include="Data\Sites\1\GalleryImages\FullSizeImages\" />
+    <Folder Include="Data\Sites\1\GalleryImages\Thumbnails\" />
+    <Folder Include="Data\Sites\1\GalleryImages\WebImages\" />
+    <Folder Include="Data\Sites\1\iQuran\" />
+    <Folder Include="Data\Sites\1\media\GalleryImages\" />
+    <Folder Include="Data\Sites\1\media\news\" />
+    <Folder Include="Data\Sites\1\systemfiles\" />
+    <Folder Include="Data\Sites\1\userfiles\" />
+    <Folder Include="Secure\" />
+    <Folder Include="Setup\applications\iQuran\FeatureDefinitions\" />
+    <Folder Include="Setup\ProviderConfig\indexbuilders\" />
+    <Folder Include="Setup\ProviderConfig\usersigninhandlers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Sites\1\GalleryImages\test.config" />
+    <Content Include="Data\Sites\1\supplementaladminmenulinks\iQuranMenu.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ITInfoPlusPages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Resource.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\iQuranResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>iQuranResources.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\iQuranMessagesResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>iQuranMessagesResources.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\LanguagesResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LanguagesResources.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\iQuranCommandsResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>iQuranCommandsResources.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\iQuranOptionsResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>iQuranOptionsResources.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WebConfigSrc\ITInfoPlus.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebConfigSrc\ITInfoPlusAuthentication.config" />
+    <Content Include="WebConfigSrc\ITInfoPlusCustomErrors.config" />
+    <Content Include="WebConfigSrc\ITInfoPlusDatePicker.config" />
+    <Content Include="WebConfigSrc\ITInfoPlusDebugMode.config" />
+    <Content Include="WebConfigSrc\ITInfoPlusEditor.config" />
+    <Content Include="WebConfigSrc\ITInfoPlusEncryption.config" />
+    <Content Include="WebConfigSrc\ITInfoPlusGlobalization.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebConfigSrc\ITInfoPlusMachineKey.config" />
+    <Content Include="WebConfigSrc\ITInfoPlusPages.config" />
+    <Content Include="WebConfigSrc\ITInfoPlusProfile.config" />
+    <Content Include="WebConfigSrc\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MojoPortal\mojoPortal.Business.WebHelpers\mojoPortal.Business.WebHelpers.csproj">
+      <Project>{4ead30ec-4f97-4f38-8530-1b7eddb8fc8e}</Project>
+      <Name>mojoPortal.Business.WebHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MojoPortal\mojoPortal.Business\mojoPortal.Business.csproj">
+      <Project>{8582d51e-126b-4d64-b080-07ad8245b38f}</Project>
+      <Name>mojoPortal.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MojoPortal\mojoPortal.Features.Business\mojoPortal.Features.Business.csproj">
+      <Project>{65849992-8f44-4480-9494-1ca0d6325795}</Project>
+      <Name>mojoPortal.Features.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MojoPortal\mojoPortal.Features.UI\mojoPortal.Features.UI.csproj">
+      <Project>{103f2b02-3224-48bc-b173-1f7e1c85178a}</Project>
+      <Name>mojoPortal.Features.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MojoPortal\mojoPortal.Net\mojoPortal.Net.csproj">
+      <Project>{30916752-1a97-49ca-95d6-81a5f784eeb5}</Project>
+      <Name>mojoPortal.Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MojoPortal\mojoPortal.Web.Controls\mojoPortal.Web.Controls.csproj">
+      <Project>{a2dcd1e2-a5c3-4e37-a5f2-093659bc1c38}</Project>
+      <Name>mojoPortal.Web.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MojoPortal\mojoPortal.Web.Editor\mojoPortal.Web.Editor.csproj">
+      <Project>{4f6dda2c-c9b8-45b2-aada-3ff922317661}</Project>
+      <Name>mojoPortal.Web.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MojoPortal\mojoPortal.Web.Framework\mojoPortal.Web.Framework.csproj">
+      <Project>{e0d12031-bfdd-4069-9024-8b00a2aa6dbc}</Project>
+      <Name>mojoPortal.Web.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MojoPortal\Web\mojoPortal.Web.csproj">
+      <Project>{8e511d65-4779-4689-82d4-811d3fe6866e}</Project>
+      <Name>mojoPortal.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\iQuran.Business\iQuran.Business.csproj">
+      <Project>{b65bfd6b-fdf9-4ca1-addf-73ee5072b7d0}</Project>
+      <Name>iQuran.Business</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\iQuranHelpResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>iQuranHelpResources.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\iQuranCommandsResources.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>iQuranCommandsResources.ar.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\iQuranHelpResources.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>iQuranHelpResources.ar.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\iQuranMessagesResources.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>iQuranMessagesResources.ar.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\iQuranOptionsResources.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>iQuranOptionsResources.ar.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\iQuranResources.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>iQuranResources.ar.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\LanguagesResources.ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LanguagesResources.ar.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="iQuran\Translations\Pickthall\Pdf\holy_quran_%28pickthall%29.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\en-US-iquran-translationsrc-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\en-US-iquran-translatordeturl-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\en-US-iquran-description-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\ar-JO-iquran-description-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\ar-JO-iquran-translationsrc-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\ar-JO-iquran-translatordeturl-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\ar-JO-iquran-SuraTranslationOrder-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\en-US-iquran-SuraTranslationOrder-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\ar-JO-iquran-VerseTranslationOrder-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\en-US-iquran-VerseTranslationOrder-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\ar-JO-iquran-FrontSearch-SelectQuranVersion-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\en-US-iquran-FrontSearch-SelectQuranVersion-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\ar-JO-iquran-FrontSearch-TextBoxSearch-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\en-US-iquran-FrontSearch-TextBoxSearch-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\ar-JO-iquran-FrontSearch-RootSearch-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\en-US-iquran-FrontSearch-RootSearch-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\ar-JO-iquran-FrontSearch-TextBoxSearch-TextType-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\en-US-iquran-FrontSearch-TextBoxSearch-TextType-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\ar-JO-iquran-FrontSearch-FontType-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\en-US-iquran-FrontSearch-FontType-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\layout.Master" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\style.config" />
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\theme.skin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\MessageTemplates\ar-JO-SimpleSearchViewInfo.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\MessageTemplates\en-US-SimpleSearchViewInfo.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\ar-JO-iquran-FrontSearch-PageSize-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\en-US-iquran-FrontSearch-PageSize-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\MessageTemplates\ar-JO-SuraViewSearchInfo.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\MessageTemplates\en-US-SuraViewSearchInfo.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WebConfigSrc\Web1.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Setup\applications\iQuran\SchemaUpgradeScripts\mssql\0.0.2.5.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\en-US-iquran-FrontSearch-SimpleSearch-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\HelpFiles\ar-JO-iquran-FrontSearch-SimpleSearch-help.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\me_quran-webfont.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\me_quran-webfont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Sites\1\skins\art42-wallpaper\me_quran-webfont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\skins\art42-wallpaper\layout.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\skins\art42-wallpaper\me_quran-webfont.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\skins\art42-wallpaper\me_quran-webfont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\skins\art42-wallpaper\me_quran-webfont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\skins\art42-wallpaper\style.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\skins\art42-wallpaper\theme.skin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Sites\1\skins\printerfriendly\layout.Master" />
+    <Content Include="Data\Sites\1\skins\printerfriendly\style.config" />
+    <Content Include="Data\Sites\1\skins\printerfriendly\theme.skin" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49371</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /s /y "$(ProjectDir)bin\iQuran.Features.UI.dll" "D:\inetpub\AccessQuran\MojoPortal\Web\bin\"
+xcopy /s /y "$(ProjectDir)bin\iQuran.Business.dll" "D:\inetpub\AccessQuran\MojoPortal\Web\bin\"
+xcopy /s /y "$(ProjectDir)bin\iQuran.Data.dll" "D:\inetpub\AccessQuran\MojoPortal\Web\bin\"
+xcopy /s /y "$(ProjectDir)bin\iQuran.Features.UI.pdb" "D:\inetpub\AccessQuran\MojoPortal\Web\bin\"
+xcopy /s /y "$(ProjectDir)bin\iQuran.Business.pdb" "D:\inetpub\AccessQuran\MojoPortal\Web\bin\"
+xcopy /s /y "$(ProjectDir)bin\iQuran.Data.pdb" "D:\inetpub\AccessQuran\MojoPortal\Web\bin\"
+xcopy /s /y "$(ProjectDir)App_GlobalResources\*.resx" "D:\inetpub\AccessQuran\MojoPortal\Web\App_GlobalResources\"
+xcopy /s /y "$(ProjectDir)App_DesignTimeStyle\*" "D:\inetpub\AccessQuran\MojoPortal\Web\App_DesignTimeStyle\"
+xcopy /s /y "$(ProjectDir)App_Data" "D:\inetpub\AccessQuran\MojoPortal\Web\App_Data\"
+xcopy /s /y "$(ProjectDir)Setup\*" "D:\inetpub\AccessQuran\MojoPortal\Web\Setup"
+xcopy /s /y "$(ProjectDir)Data\*" "D:\inetpub\AccessQuran\MojoPortal\Web\Data"
+xcopy /s /y "$(ProjectDir)ClientScript\*" "D:\inetpub\AccessQuran\MojoPortal\Web\ClientScript"
+xcopy /s /y "$(ProjectDir)Admin\iQuran\*.aspx" "D:\inetpub\AccessQuran\MojoPortal\Web\Admin\iQuran\"
+xcopy /s /y "$(ProjectDir)Controls\iQuran\*.ascx" "D:\inetpub\AccessQuran\MojoPortal\Web\Controls\iQuran\"
+xcopy /s /y "$(ProjectDir)WebConfigSrc\*.config" "D:\inetpub\AccessQuran\MojoPortal\Web\"
+xcopy /s /y "$(ProjectDir)iQuran\*.aspx" "D:\inetpub\AccessQuran\MojoPortal\Web\iQuran\"
+xcopy /s /y "$(ProjectDir)iQuran\Translations\*" "D:\inetpub\AccessQuran\MojoPortal\Web\iQuran\Translations\"
+xcopy /s /y "$(ProjectDir)*.aspx" "D:\inetpub\AccessQuran\MojoPortal\Web\"
+</PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+</Project>

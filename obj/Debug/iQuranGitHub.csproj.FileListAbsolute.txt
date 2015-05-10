@@ -1,0 +1,2 @@
+D:\inetpub\AccessQuran\iQuran.GitHub\iQuranGitHub\bin\Debug\iQuranGitHub.exe.config
+D:\inetpub\AccessQuran\iQuran.GitHub\bin\Debug\iQuranGitHub.exe.config

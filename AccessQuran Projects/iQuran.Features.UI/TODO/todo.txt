@@ -1,0 +1,15 @@
+﻿
+- explain how to find " high lighted " othmani part of verses - select text then othmani !!
+in generel write weiki for using the researcher !
+
+- design itar for sura page اطار
+
+- add Basmaleh to suras!!!
+
+- translate resources
+- search for word root transfered to advanced search ind instead used table root :
+ TODO before this root you have to find the roots words may result and wiew them then after selecting one of them come here !
+        // because it may be more than one root according to the word entered !!
+		ءبو - ءبي - ب - بنن - بنو - بني - بوء - بين - لبن - نبء
+		 
+

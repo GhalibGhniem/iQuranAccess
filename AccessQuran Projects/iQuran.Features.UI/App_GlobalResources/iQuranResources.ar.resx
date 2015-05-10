@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActiveHeader" xml:space="preserve">
+    <value>فعّال</value>
+  </data>
+  <data name="AddNewiQuranHeader" xml:space="preserve">
+    <value>إضافة نسخة جديدة من القرءأن</value>
+  </data>
+  <data name="AddNewiSuraHeader" xml:space="preserve">
+    <value>إضافة سورة جديدة للنسخة المختارة</value>
+  </data>
+  <data name="AdminMenuiQuranManagerAdminLink" xml:space="preserve">
+    <value>إدارة نسخ القرءان</value>
+  </data>
+  <data name="AdminMenuiSuraManagerAdminLink" xml:space="preserve">
+    <value>إدارة السور</value>
+  </data>
+  <data name="AdminMenuiVerseManagerAdminLink" xml:space="preserve">
+    <value>إدارة الآيات</value>
+  </data>
+  <data name="AdvancedLink" xml:space="preserve">
+    <value>إدارة الباحث القرءاني</value>
+  </data>
+  <data name="AdvancedToolsHeading" xml:space="preserve">
+    <value>إدارة الباحث القرءاني</value>
+  </data>
+  <data name="CreatedDateHeader" xml:space="preserve">
+    <value>تاريخ الإدخال</value>
+  </data>
+  <data name="DescriptionHeader" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="EditiQuranHeader" xml:space="preserve">
+    <value>تعديل نسخة القرءان</value>
+  </data>
+  <data name="iQuranHeader" xml:space="preserve">
+    <value>نسخة القرءان</value>
+  </data>
+  <data name="IsDefaultHeader" xml:space="preserve">
+    <value>هل هي نسخة المدينة؟</value>
+  </data>
+  <data name="LanguageHeader" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="LanguageofVersionHeader" xml:space="preserve">
+    <value>لغة الترجمة</value>
+  </data>
+  <data name="LibraryAdvancedLink" xml:space="preserve">
+    <value>إدارة ملحقات الباحث القرءاني</value>
+  </data>
+  <data name="LibraryAdvancedToolsHeading" xml:space="preserve">
+    <value>إدارة ملحقات الباحث القرءاني</value>
+  </data>
+  <data name="NotActiveHeader" xml:space="preserve">
+    <value>غير فعّال</value>
+    <comment>1</comment>
+  </data>
+  <data name="OthmaniTextHeader" xml:space="preserve">
+    <value>الرسم العثماني للآية</value>
+  </data>
+  <data name="PartNoHeader" xml:space="preserve">
+    <value>رقم الجزء</value>
+  </data>
+  <data name="SearchByPartHeader" xml:space="preserve">
+    <value>إبحث عن كلمة / جزء من آية</value>
+  </data>
+  <data name="SearchByTitleHeader" xml:space="preserve">
+    <value>إبحث عن عنوان / جزء منه</value>
+  </data>
+  <data name="SelectAllHeader" xml:space="preserve">
+    <value>‘خترها جميعا</value>
+  </data>
+  <data name="SelectByStatusLabel" xml:space="preserve">
+    <value>إختيار بالحالة</value>
+  </data>
+  <data name="SelectiQuran" xml:space="preserve">
+    <value>إختر نسخة القرءان</value>
+  </data>
+  <data name="SortOrderHeader" xml:space="preserve">
+    <value>الترتيب</value>
+  </data>
+  <data name="StarLabel" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="SuraCountHeader" xml:space="preserve">
+    <value>مجموع عدد السور</value>
+  </data>
+  <data name="TitleHeader" xml:space="preserve">
+    <value>الإسم</value>
+  </data>
+  <data name="TranslationHeader" xml:space="preserve">
+    <value>الترجمة</value>
+  </data>
+  <data name="VersesCountHeader" xml:space="preserve">
+    <value>عدد الآيات</value>
+  </data>
+  <data name="VerseTextNMAlifHeader" xml:space="preserve">
+    <value>الآية بدون حركات مع إهمال جميع أنواع الألف</value>
+  </data>
+  <data name="VerseTextNMHeader" xml:space="preserve">
+    <value>الآية بدون حركات</value>
+  </data>
+  <data name="PlaceHeader" xml:space="preserve">
+    <value>مكان السورة</value>
+  </data>
+  <data name="SelectPlaceHeader" xml:space="preserve">
+    <value>مكان السورة / الآية</value>
+  </data>
+  <data name="HalfNoHeader" xml:space="preserve">
+    <value>رقم النصف</value>
+  </data>
+  <data name="HizbNoHeader" xml:space="preserve">
+    <value>رقم الحزب</value>
+  </data>
+  <data name="QuraterNoHeader" xml:space="preserve">
+    <value>رقم الربع</value>
+  </data>
+  <data name="SelectHalfNoHeader" xml:space="preserve">
+    <value>إختر النصف</value>
+  </data>
+  <data name="AdvancedSearchPageTitle" xml:space="preserve">
+    <value>صفحة البحث المتقدّم</value>
+  </data>
+  <data name="SimpleSearchPageTitle" xml:space="preserve">
+    <value>صفحة البحث البسيط</value>
+  </data>
+  <data name="SearchEndSura" xml:space="preserve">
+    <value>إلى سورة</value>
+  </data>
+  <data name="SearchEndVerse" xml:space="preserve">
+    <value>إلى آية</value>
+  </data>
+  <data name="SearchFor" xml:space="preserve">
+    <value>إبحث عن</value>
+  </data>
+  <data name="SearchForWordSenetence" xml:space="preserve">
+    <value>إبحث عن كلمة/ جزء من كلمة / جزء من آية</value>
+  </data>
+  <data name="SearchNMAlif" xml:space="preserve">
+    <value>بدل جميع أشكال حروف الألف: "ا أ آ إ" إلى "ا" وابحث</value>
+  </data>
+  <data name="SearchStartFromSura" xml:space="preserve">
+    <value>إبدأ من سورة</value>
+  </data>
+  <data name="SearchStartFromVerse" xml:space="preserve">
+    <value>إبدأ من آية</value>
+  </data>
+  <data name="SearchWantedWord" xml:space="preserve">
+    <value>ألكلمة المطلوبة</value>
+  </data>
+  <data name="SuraHeader" xml:space="preserve">
+    <value>السورة</value>
+  </data>
+  <data name="VerseHeader" xml:space="preserve">
+    <value>الآية</value>
+  </data>
+  <data name="SearchWordCriteria" xml:space="preserve">
+    <value>معايير البحث</value>
+  </data>
+  <data name="SearchWordFontType" xml:space="preserve">
+    <value>نوع الرسم</value>
+  </data>
+  <data name="SearchWordTextOrRootType" xml:space="preserve">
+    <value>البحث بكتابة كلمة أم الجذر؟</value>
+  </data>
+  <data name="SelectRoot" xml:space="preserve">
+    <value>إختر الجذر</value>
+  </data>
+  <data name="SuraSortOrderHeader" xml:space="preserve">
+    <value>ترتيب السورة</value>
+  </data>
+  <data name="TranslationSrcHeader" xml:space="preserve">
+    <value>مكان الترجمه</value>
+  </data>
+  <data name="TRanslatorDetUrlHeader" xml:space="preserve">
+    <value>نبذة عن المترجم</value>
+  </data>
+  <data name="VerseSortOrderHeader" xml:space="preserve">
+    <value>ترتيب الآية</value>
+  </data>
+  <data name="iQuranAdvancedToolsHeading" xml:space="preserve">
+    <value>إدارة الباحث القرءاني</value>
+  </data>
+  <data name="AddNewiVerseHeader" xml:space="preserve">
+    <value> إضافة آية جديدة للسورة المختارة</value>
+  </data>
+  <data name="SelectiSura" xml:space="preserve">
+    <value>إختر سورة</value>
+  </data>
+  <data name="EditiSuraHeader" xml:space="preserve">
+    <value>تعديل السورة</value>
+  </data>
+  <data name="EditiVerseHeader" xml:space="preserve">
+    <value>تعديل الآية</value>
+  </data>
+  <data name="SeperatorDash" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="SimpleSearchPageResultTitle" xml:space="preserve">
+    <value>صفحة نتائج البحث البسيط</value>
+  </data>
+  <data name="CopyAllRemebered" xml:space="preserve">
+    <value>ترتيل جميع الآيات المعلّمة</value>
+  </data>
+  <data name="RemeberedVersesHeader" xml:space="preserve">
+    <value>الآيات التي تم تعليمها</value>
+  </data>
+  <data name="PageSize" xml:space="preserve">
+    <value>عدد الآيات في كل صفحة</value>
+  </data>
+  <data name="ViewWholeSura" xml:space="preserve">
+    <value>إعرض كامل السورة</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>رقم</value>
+  </data>
+  <data name="PartHeader" xml:space="preserve">
+    <value>الجزء</value>
+  </data>
+  <data name="SuratHeader" xml:space="preserve">
+    <value>سورة</value>
+  </data>
+</root>

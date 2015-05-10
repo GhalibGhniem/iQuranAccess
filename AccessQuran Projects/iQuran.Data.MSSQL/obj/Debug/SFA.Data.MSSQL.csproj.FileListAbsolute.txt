@@ -1,0 +1,9 @@
+D:\inetpub\Shine4All\Shine4All Projects\SFA.Data.MSSQL\bin\Debug\SFA.Data.dll
+D:\inetpub\Shine4All\Shine4All Projects\SFA.Data.MSSQL\bin\Debug\SFA.Data.pdb
+D:\inetpub\Shine4All\Shine4All Projects\SFA.Data.MSSQL\bin\Debug\mojoPortal.Data.dll
+D:\inetpub\Shine4All\Shine4All Projects\SFA.Data.MSSQL\bin\Debug\mojoPortal.Features.Data.dll
+D:\inetpub\Shine4All\Shine4All Projects\SFA.Data.MSSQL\bin\Debug\mojoPortal.Data.pdb
+D:\inetpub\Shine4All\Shine4All Projects\SFA.Data.MSSQL\bin\Debug\mojoPortal.Features.Data.pdb
+D:\inetpub\Shine4All\Shine4All Projects\SFA.Data.MSSQL\obj\Debug\SFA.Data.MSSQL.csprojResolveAssemblyReference.cache
+D:\inetpub\Shine4All\Shine4All Projects\SFA.Data.MSSQL\obj\Debug\SFA.Data.dll
+D:\inetpub\Shine4All\Shine4All Projects\SFA.Data.MSSQL\obj\Debug\SFA.Data.pdb

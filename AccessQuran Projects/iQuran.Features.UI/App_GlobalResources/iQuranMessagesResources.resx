@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DeletedMsg" xml:space="preserve">
+    <value>The Item deleted succsessfully !</value>
+  </data>
+  <data name="DeleteQuranTip" xml:space="preserve">
+    <value>Delete this version of Quran and all related to it data !</value>
+  </data>
+  <data name="DeleteWarning" xml:space="preserve">
+    <value>Are you sure you want to delete this Version of Quran ? this will delete all related to it sub Items if exists !!</value>
+  </data>
+  <data name="FailedSave" xml:space="preserve">
+    <value>Fialed to save the Item ! Please Try Later !</value>
+  </data>
+  <data name="NoDataYet" xml:space="preserve">
+    <value>There is no Data entered yet !</value>
+  </data>
+  <data name="QuranDescriptionRequired" xml:space="preserve">
+    <value>Quran Description is Required !</value>
+  </data>
+  <data name="QuranLanguageRequired" xml:space="preserve">
+    <value>Quran Language is Required !</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="SuccessfullSave" xml:space="preserve">
+    <value>The Item saved succsessfully !</value>
+  </data>
+  <data name="TitleExists" xml:space="preserve">
+    <value>This Title Exists !</value>
+  </data>
+  <data name="TitleRequired" xml:space="preserve">
+    <value>Title is Required !</value>
+  </data>
+  <data name="VerseTextsRequired" xml:space="preserve">
+    <value>Verse Texts (All Types of text) is Required !</value>
+  </data>
+  <data name="VerseTranslationRequired" xml:space="preserve">
+    <value>Verse Translation is Required !</value>
+  </data>
+  <data name="AdvancedSearchInfo" xml:space="preserve">
+    <value>This page is designed for Advanced Search by many criterias</value>
+  </data>
+  <data name="SimpleSearchInfo" xml:space="preserve">
+    <value>This page is designed for Simple Search by word / sentence of the verses</value>
+  </data>
+  <data name="UnderConstruction" xml:space="preserve">
+    <value>UNDER CONSTRUCTION !</value>
+  </data>
+  <data name="DeleteSuraTip" xml:space="preserve">
+    <value>Delete this Sura and all related to it Verses !</value>
+  </data>
+  <data name="DeleteSuraWarning" xml:space="preserve">
+    <value>Are you sure you want to delete this Sura ? this will delete all related to it Verses if exists !!</value>
+  </data>
+  <data name="DeleteVerseTip" xml:space="preserve">
+    <value>Delete this Verses !</value>
+  </data>
+  <data name="DeleteVerseWarning" xml:space="preserve">
+    <value>Are you sure you want to delete this Verse ?!</value>
+  </data>
+  <data name="DeleteQuranWarning" xml:space="preserve">
+    <value>Are you sure you want to delete this Version of Quran ? this will delete all related to it Suras and Verses if exists !!</value>
+  </data>
+  <data name="VerseNoSuchOrder" xml:space="preserve">
+    <value>There is no such ORDER in the Original Quran for this verse!!</value>
+  </data>
+  <data name="FailedDelete" xml:space="preserve">
+    <value>Fialed to delete the Item ! Please Try Later !</value>
+  </data>
+  <data name="SuccessfullDelete" xml:space="preserve">
+    <value>The Item deleted succsessfully !</value>
+  </data>
+  <data name="SuraOrderExists" xml:space="preserve">
+    <value>This Order was taken to another Sura, it is Exists !</value>
+  </data>
+  <data name="VerseExists" xml:space="preserve">
+    <value>This Verse Exists !</value>
+  </data>
+  <data name="VerseOrderExists" xml:space="preserve">
+    <value>This Order was taken to another Verse, it is Exists !</value>
+  </data>
+  <data name="SearchTextsRequired" xml:space="preserve">
+    <value>Search Text Required!</value>
+  </data>
+  <data name="NoSearchResult" xml:space="preserve">
+    <value>There is no reults found!</value>
+  </data>
+  <data name="PageSizeLimit" xml:space="preserve">
+    <value>Page Size - Results in one page - are limited from 1 -100</value>
+  </data>
+  <data name="SearchVerseFromToLimit" xml:space="preserve">
+    <value>Verses numbers limited from 1 to 286</value>
+  </data>
+  <data name="TextSearchSpacesNotAllowed" xml:space="preserve">
+    <value>It is not allowed to add space or another word when you search for "Only Word" or "Part from Word" !</value>
+  </data>
+  <data name="HelpNoVerseAvailable" xml:space="preserve">
+    <value>There is some error happened, please try later!</value>
+  </data>
+</root>

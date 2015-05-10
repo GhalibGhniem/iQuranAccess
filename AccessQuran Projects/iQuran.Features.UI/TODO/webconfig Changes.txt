@@ -1,0 +1,37 @@
+﻿<appSettings file="ITInfoPlus.config">
+<add key="mojoCryptoHelperKeyFile" value="~/ITInfoPlusEncryption.config"/>
+<add key="mojoProfileConfigFileName" value="ITInfoPlusProfile.config"/>
+<machineKey configSource="ITInfoPlusMachineKey.config" />
+<authentication configSource="ITInfoPlusAuthentication.config" />
+<customErrors configSource="ITInfoPlusCustomErrors.config" />
+<smtp configSource="ITInfoPlusSMTP.config" />
+<pages configSource="ITInfoPlusPages.config"  />
+<add key="mojoEditorConfigFileName" value="ITInfoPlusEditor.config" />
+<globalization configSource="ITInfoPlusGlobalization"
+
+Quick Fix for Medium Trust Rename Web.config file to Web.fulltrust.config Rename Web.mediumtrust.config to Web.config
+
+Upload Site steps:
+Note: never overright : ITInfoPlusEncryption.config & ITInfoPlusMachineKey.config
+
+ C:\Windows\Microsoft.NET\Framework\v4.0.30319>aspnet_regiis -pc "MyKeys" -exp
+          C:\Windows\Microsoft.NET\Framework\v4.0.30319>aspnet_regiis -px "MyKeys" "C:\inetpub\RSAKeys\portalname\keys.xml" -pri
+
+Correct permissions for folders DATA and APP_DATA for read/write but not execute 
+(In the case of ASP.NET scripts select "Plesk IIS WP User".)
+1. Upload everything except:
+	Admin
+	GlobalResources
+	bin
+	clientscript
+	data
+	
+2. Upload All except:
+	setup
+3. disable Setup in ITInfoPlus.config
+4. upload setup
+5. Enable setup
+6. run setup
+7. disable setup
+8. change admin account         
+

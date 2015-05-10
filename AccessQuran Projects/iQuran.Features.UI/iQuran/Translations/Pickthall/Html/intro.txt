@@ -1,0 +1,33 @@
+<center>
+<a class=bluelink href=#toc>Skip intro</a>
+</center>
+
+<table cellspacing=20 cellpadding=2>
+<tr>
+<td width=50% valign=top>
+
+<b>Introduction:</b>
+The Qur'an (also Quran, Koran, Alcoran;) is the Islamic holy book of Allah (Arabic for God).<br><br>
+
+
+Muslims believe that the Qur'an is the literal word of God, revealed to the Prophet Muhammad over a period of 22 years. The Qur'an consists of 114 suras (chapters) with a total of 6,236 ayats (verses). The Qur'an retells stories of many of the people and events of the Jewish and Christian Bibles, although it differs in many details.  
+<br><br>
+</td>
+
+<td width=50% valign=top>
+
+Well-known Biblical characters such as Adam, Noah, Abraham, Moses, Jesus, Mary, and John the Baptist are mentioned in the Qur'an as Prophets of Islam.
+<br><br>
+
+<span class=smallfont>Intro taken from 
+http://en.wikipedia.org/wiki/Quran
+</a>
+</span>
+
+</td>
+</tr>
+</table>
+<a name=#toc>
+<center>
+<b>Contents</b>
+</center>

@@ -1,0 +1,16 @@
+
+<!--htdig_noindex--> 
+<table align="center" cellpadding="5" cellspacing="5" border="0">
+  <tr>
+    <td align=right><img src=/images/islam_sm.jpg width=128 height=85 border="0"></td>
+    <td align=left>English translation of<br><b><span class=bighead>Holy Quran</span></b><br><br>
+       <span class=smallfont>
+       English translation by <b>Mohammed Marmaduke Pickthall</b><br>
+       taken from http://www.sacred-texts.com/isl/pick/
+       </span>
+    </td>
+  </tr>
+</table>
+<!--/htdig_noindex--> 
+
+

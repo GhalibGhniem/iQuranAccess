@@ -1,0 +1,11 @@
+D:\inetpub\RFPUHS\RFP Projects\RFP.Data.MSSQL\bin\Debug\UHSRFP.Data.dll
+D:\inetpub\RFPUHS\RFP Projects\RFP.Data.MSSQL\bin\Debug\UHSRFP.Data.pdb
+D:\inetpub\RFPUHS\RFP Projects\RFP.Data.MSSQL\bin\Debug\log4net.dll
+D:\inetpub\RFPUHS\RFP Projects\RFP.Data.MSSQL\bin\Debug\mojoPortal.Data.dll
+D:\inetpub\RFPUHS\RFP Projects\RFP.Data.MSSQL\bin\Debug\mojoPortal.Features.Data.dll
+D:\inetpub\RFPUHS\RFP Projects\RFP.Data.MSSQL\bin\Debug\mojoPortal.Data.pdb
+D:\inetpub\RFPUHS\RFP Projects\RFP.Data.MSSQL\bin\Debug\mojoPortal.Features.Data.pdb
+D:\inetpub\RFPUHS\RFP Projects\RFP.Data.MSSQL\bin\Debug\log4net.xml
+D:\inetpub\RFPUHS\RFP Projects\RFP.Data.MSSQL\obj\Debug\UHSRFP.Data.dll
+D:\inetpub\RFPUHS\RFP Projects\RFP.Data.MSSQL\obj\Debug\UHSRFP.Data.pdb
+D:\inetpub\RFPUHS\RFP Projects\RFP.Data.MSSQL\obj\Debug\UHSRFP.Data.MSSQL.csprojResolveAssemblyReference.cache

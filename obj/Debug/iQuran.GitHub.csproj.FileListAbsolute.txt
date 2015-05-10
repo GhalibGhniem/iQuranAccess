@@ -1,0 +1,6 @@
+D:\inetpub\AccessQuran\iQuran.GitHub\bin\Debug\iQuran.GitHub.exe.config
+D:\inetpub\AccessQuran\iQuran.GitHub\bin\Debug\iQuran.GitHub.exe
+D:\inetpub\AccessQuran\iQuran.GitHub\bin\Debug\iQuran.GitHub.pdb
+D:\inetpub\AccessQuran\iQuran.GitHub\obj\Debug\iQuran.GitHub.csprojResolveAssemblyReference.cache
+D:\inetpub\AccessQuran\iQuran.GitHub\obj\Debug\iQuran.GitHub.exe
+D:\inetpub\AccessQuran\iQuran.GitHub\obj\Debug\iQuran.GitHub.pdb
