@@ -38,8 +38,8 @@ also an advanced <b>tools</b> for searching the quran and translations!<br />
 
 The place of the initial web project will be at : <br />
 
-<a href="http://www.iQuranAccee.com" target="_blank"> iQuranAccee.com </a><br />
-<a href="http://www.iQuranAccee.net" target="_blank"> iQuranAccee.net </a>
+<a href="http://www.iQuranAccess.com" target="_blank"> iQuranAccee.com </a><br />
+<a href="http://www.iQuranAccess.net" target="_blank"> iQuranAccee.net </a>
  
 
 
